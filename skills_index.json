@@ -1,0 +1,33 @@
+{
+  "version": "1.0",
+  "generatedAt": "2026-06-28T00:15:00Z",
+  "description": "Index of all reusable skills in GenJess-OS. Skills follow the standard Agent Skills specification (SKILL.md with YAML frontmatter).",
+  "skills": [
+    {
+      "name": "deploy-pipeline",
+      "path": "skills/deploy-pipeline/SKILL.md",
+      "description": "End-to-end deploy pipeline for any web deliverable. Commits HTML + assets to GitHub, verifies Vercel deployment with byte-count verification, optionally uploads media, and composes success email.",
+      "tags": ["deploy", "github", "vercel", "cloudinary", "imagekit", "supabase", "drive", "web-artifacts"],
+      "version": "3.0"
+    },
+    {
+      "name": "firecrawl",
+      "path": "skills/firecrawl/SKILL.md",
+      "description": "Elite web research and structured data extraction using Firecrawl. Wide-net discovery, deep crawling, markdown extraction, and evidence gathering.",
+      "tags": ["research", "firecrawl", "web-scraping", "evidence-gathering"],
+      "version": "1.0"
+    }
+  ],
+  "charters": [
+    {
+      "name": "outbound-studio-charter",
+      "path": "charters/outbound-studio-charter.md",
+      "description": "Outbound Studio Agent Agency Charter — business model, agent topology, and operating principles."
+    },
+    {
+      "name": "axonai-agency-charter",
+      "path": "charters/axonai-agency-charter.md",
+      "description": "AxonAI Agency Master Charter — market, product, revenue model, and systems."
+    }
+  ]
+}
