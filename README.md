@@ -4,6 +4,30 @@
 
 A comprehensive, multi-agent production environment combining outbound studio capabilities, deployment pipelines, collaborative layers (AxonAI), MCP/Supabase real-time communication, and structured `own-the-outcome` workflows.
 
+## Quick Navigation
+
+- [AGENTS.md](https://raw.githubusercontent.com/agenticjess-star/GenJess-OS/main/AGENTS.md) — Critical guidelines for agents
+- [STRUCTURE.md](https://raw.githubusercontent.com/agenticjess-star/GenJess-OS/main/STRUCTURE.md) — Technical architecture overview
+- [skills/firecrawl/SKILL.md](https://raw.githubusercontent.com/agenticjess-star/GenJess-OS/main/skills/firecrawl/SKILL.md) — Firecrawl research skill
+
+## Repository Structure
+
+```
+GenJess-OS/
+├── README.md                 # Human overview (this file)
+├── AGENTS.md                 # Agent guidelines & anti-patterns
+├── STRUCTURE.md              # Technical architecture
+├── README-FULL.md            # Extended/detailed version
+├── .claude/                  # Claude Code configuration
+├── agents/                   # Agent definitions & orchestration
+├── axonaut/                  # AxonAI collaboration layer
+├── hooks/                    # Automation hooks
+├── mcp-servers/              # MCP server configurations
+├── orchestration/            # Workflow orchestration logic
+└── skills/                   # Reusable agent skills
+    └── firecrawl/            # Firecrawl research & extraction skill
+```
+
 ## Overview
 
 GenJess-OS is designed as a full agent operating system. It orchestrates multiple specialized agents that can plan, execute, review, and ship work with high reliability and traceability.
@@ -31,7 +55,7 @@ Skills live in the `skills/` directory. Each skill is self-contained and discove
 
 ### Current Skills
 
-- `firecrawl` — Deep research, wide-net discovery, and structured extraction using Firecrawl (see `skills/firecrawl/SKILL.md`).
+- `firecrawl` — Deep research, wide-net discovery, and structured extraction using Firecrawl.
 
 ## Getting Started
 
@@ -39,19 +63,6 @@ Skills live in the `skills/` directory. Each skill is self-contained and discove
 2. Configure environment variables (Supabase, Firecrawl API key, etc.)
 3. Load skills into your agent environment (Claude Code, Cursor, etc.)
 4. Start with the core outbound or research workflows
-
-## Repository Structure
-
-```
-GenJess-OS/
-├── README.md
-├── skills/
-│   └── firecrawl/
-│       └── SKILL.md
-├── workflows/
-├── docs/
-└── ...
-```
 
 ## Contributing
 
